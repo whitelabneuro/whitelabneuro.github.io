@@ -344,20 +344,14 @@ main .narrow p {
   height: 100%;
 }
 
-.publication-card h3 {
-  margin-top: 0.5rem;
-}
-
 .publication-image-placeholder {
   width: 100%;
-  border-radius: 14px;
-  overflow: hidden;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
 }
 
 .publication-image-placeholder span {
   display: block;
-  padding: 0.6rem 0.2rem 0;
+  padding-top: 0.5rem;
   font-size: 0.95rem;
   color: var(--muted);
   font-weight: 600;
@@ -373,22 +367,34 @@ main .narrow p {
   display: block;
 }
 
-.publication-figure-placeholder {
-  margin-top: 0.75rem;
-  margin-bottom: 1rem;
+.publication-top {
+  display: block;
+}
+
+.publication-middle {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem 0 1rem;
 }
 
 .publication-figure {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  max-height: 220px;
+  object-fit: contain;
   border-radius: 14px;
   border: 1px solid var(--border);
   display: block;
+  background: #ffffff;
+}
+
+.publication-bottom {
+  margin-top: auto;
 }
 
 .publication-link {
-  margin-top: auto;
-  padding-top: 0.5rem;
+  margin: 0;
+  padding-top: 0.4rem;
 }
 }
