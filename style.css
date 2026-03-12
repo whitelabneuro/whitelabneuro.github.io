@@ -343,6 +343,19 @@ main .narrow p {
   padding-top: 0.4rem;
 }
 
+.hero-photo-wrap {
+  margin: 1rem 0 1rem;
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .two-column,
