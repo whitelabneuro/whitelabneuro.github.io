@@ -304,6 +304,35 @@ a:hover {
 main .narrow p {
   margin-bottom: 1rem;
 }
+
+.publication-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.publication-image-placeholder {
+  width: 100%;
+  min-height: 180px;
+  border: 1px dashed var(--border);
+  border-radius: 14px;
+  background: #f8fafb;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.publication-image-placeholder span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
   
   .hero {
     padding-top: 3.5rem;
