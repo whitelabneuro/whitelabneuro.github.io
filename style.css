@@ -283,24 +283,6 @@ a:hover {
   color: var(--muted);
 }
 
-@media (max-width: 900px) {
-  .hero-grid,
-  .two-column,
-  .split-highlight,
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .header-inner {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 1rem 0;
-  }
-
-  .site-nav ul {
-    gap: 0.9rem;
-  }
-
 main .narrow p {
   margin-bottom: 1rem;
 }
