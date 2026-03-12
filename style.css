@@ -301,6 +301,10 @@ a:hover {
     gap: 0.9rem;
   }
 
+main .narrow p {
+  margin-bottom: 1rem;
+}
+  
   .hero {
     padding-top: 3.5rem;
   }
