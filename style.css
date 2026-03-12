@@ -308,54 +308,12 @@ main .narrow p {
 .publication-card {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
-}
-
-.publication-image-placeholder {
-  width: 100%;
-  min-height: 180px;
-  border: 1px dashed var(--border);
-  border-radius: 14px;
-  background: #f8fafb;
-  color: var(--muted);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.publication-image-placeholder span {
-  display: block;
-  font-weight: 400;
-  font-size: 0.95rem;
-  margin-top: 0.25rem;
-}
-  
-  .hero {
-    padding-top: 3.5rem;
-  }
- 
-  .publication-card {
-  display: flex;
-  flex-direction: column;
   height: 100%;
 }
 
-.publication-image-placeholder {
+.publication-image-wrap {
   width: 100%;
   margin-bottom: 0.9rem;
-}
-
-.publication-image-placeholder span {
-  display: block;
-  padding-top: 0.5rem;
-  font-size: 0.95rem;
-  color: var(--muted);
-  font-weight: 600;
-  text-align: center;
 }
 
 .publication-image {
@@ -397,4 +355,26 @@ main .narrow p {
   margin: 0;
   padding-top: 0.4rem;
 }
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .two-column,
+  .split-highlight,
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .site-nav ul {
+    gap: 0.9rem;
+  }
+
+  .hero {
+    padding-top: 3.5rem;
+  }
 }
