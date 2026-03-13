@@ -356,11 +356,9 @@ main .narrow p {
   border-radius: 14px;
 }
 
-.page-feature-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
+.page-image-section {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .page-image-grid {
@@ -372,7 +370,7 @@ main .narrow p {
 .page-image-grid img {
   display: block;
   width: 100%;
-  height: 220px;
+  height: 260px;
   object-fit: cover;
   border-radius: 16px;
 }
