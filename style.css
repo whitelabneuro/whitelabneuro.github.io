@@ -356,6 +356,13 @@ main .narrow p {
   border-radius: 14px;
 }
 
+.page-feature-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .two-column,
