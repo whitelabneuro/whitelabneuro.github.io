@@ -139,7 +139,7 @@ a:hover {
 }
 
 .hero-small {
-  padding: 4rem 0 2.5rem;
+  padding: 2.5rem 0 2rem;
 }
 
 .button {
@@ -357,26 +357,20 @@ main .narrow p {
 }
 
 .page-banner-section {
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.25rem;
 }
 
 .page-banner-image {
   display: block;
   width: 100%;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
   border-radius: 18px;
 }
 
-@media (max-width: 700px) {
-  .page-banner-image {
-    height: 90px;
-  }
-}
-
 .page-image-section {
-  padding-top: 0.75rem;
+  padding-top: 1.5rem;
   padding-bottom: 0.75rem;
 }
 
@@ -395,6 +389,10 @@ main .narrow p {
 }
 
 @media (max-width: 700px) {
+  .page-banner-image {
+    height: 80px;
+  }
+
   .page-image-grid {
     grid-template-columns: 1fr;
   }
