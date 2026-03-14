@@ -426,3 +426,55 @@ main .narrow p {
     padding-top: 3.5rem;
   }
 }
+
+.supporters-intro {
+  max-width: 820px;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+.supporters-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.supporter-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+.supporter-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logo-grid img {
+  max-width: 100%;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.supporters-link {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .supporters-grid {
+    grid-template-columns: 1fr;
+  }
+}
