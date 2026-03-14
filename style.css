@@ -395,10 +395,12 @@ main .narrow p {
 
   .page-image-grid {
     grid-template-columns: 1fr;
+    gap: 0.85rem;
   }
 
   .page-image-grid img {
-    height: auto;
+    height: 180px;
+    object-fit: cover;
   }
 }
 
