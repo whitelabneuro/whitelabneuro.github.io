@@ -492,8 +492,8 @@ main .narrow p {
 
 .support-story {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 360px 1fr;
+  gap: 1.75rem;
   align-items: center;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -504,7 +504,8 @@ main .narrow p {
 
 .support-story-image img {
   width: 100%;
-  height: auto;
+  height: 230px;
+  object-fit: cover;
   border-radius: 14px;
 }
 
