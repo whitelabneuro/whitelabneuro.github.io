@@ -447,22 +447,17 @@ main .narrow p {
   padding: 1.5rem;
 }
 
-.supporter-card h3 {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.15rem;
-}
-
 .logo-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 1.25rem;
   align-items: center;
+  justify-items: center;
 }
 
 .logo-grid img {
   max-width: 100%;
-  max-height: 90px;
+  max-height: 95px;
   width: auto;
   height: auto;
   object-fit: contain;
