@@ -492,7 +492,7 @@ main .narrow p {
 
 .support-story {
   display: grid;
-  grid-template-columns: 360px 1fr;
+  grid-template-columns: minmax(360px, 360px) 1fr;
   gap: 1.75rem;
   align-items: center;
   background: var(--surface);
@@ -500,6 +500,10 @@ main .narrow p {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 1.5rem;
+}
+
+.support-story-image {
+  width: 100%;
 }
 
 .support-story-image img {
@@ -521,5 +525,9 @@ main .narrow p {
 @media (max-width: 700px) {
   .support-story {
     grid-template-columns: 1fr;
+  }
+
+  .support-story-image img {
+    height: 220px;
   }
 }
