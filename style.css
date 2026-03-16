@@ -528,14 +528,15 @@ main .narrow p {
   align-items: center;
 }
 
-.site-brand:hover {
-  text-decoration: none;
+.site-brand:hover .site-logo-full {
+  transform: scale(1.03);
 }
 
 .site-logo-full {
   height: 125px;
   width: auto;
   display: block;
+  transition: transform 0.15s ease;
 }
 
 .footer-logo {
