@@ -544,3 +544,9 @@ main .narrow p {
   font-weight: 700;
   color: var(--text);
 }
+
+.footer-logo {
+  height: 48px;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
