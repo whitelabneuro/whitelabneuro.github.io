@@ -539,7 +539,8 @@ main .narrow p {
 }
 
 .footer-logo {
-  height: 48px;
+  height: 70px;
   width: auto;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  display: block;
 }
