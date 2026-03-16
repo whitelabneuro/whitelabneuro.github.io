@@ -67,7 +67,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  min-height: 72px;
+  min-height: 88px;
 }
 
 .site-title {
@@ -533,10 +533,11 @@ main .narrow p {
 }
 
 .site-logo-full {
-  height: 52px;
+  height: 72px;
   width: auto;
   display: block;
 }
+
 .footer-logo {
   height: 48px;
   width: auto;
